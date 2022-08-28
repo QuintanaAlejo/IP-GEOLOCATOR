@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP GEOLOCATOR</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    <link rel="icon" href="direccion-ip.png">
+
+</head>
+<body>
+    <main class="container">
+        <h1>IP GEOLOCATOR</h1>
+        <div class="busqueda">
+            <form id="form">
+                <h3>Ip a Investigar</h3>
+                <input required type="text" placeholder="Introduce la Ip" id="input">
+                <button id="submit" type="submit">OBTENER TU INFORMACION</button>
+            </form>
+        </div>
+        <div>
+            <ul id="resultado">
+            
+            </ul>
+        </div>
+        <div id="map"></div>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
